@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Helmet_Detection/yolov10/safety_helmet_dataset/train
+val: /content/drive/MyDrive/Helmet_Detection/yolov10/safety_helmet_dataset/valid
+test: /content/drive/MyDrive/Helmet_Detection/yolov10/safety_helmet_dataset/test
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: dataperson
+  project: safety-helmet-dataset-uvh1t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataperson/safety-helmet-dataset-uvh1t/dataset/1
