@@ -6,7 +6,8 @@ This project uses YOLOv10, a state-of-the-art object detection algorithm, to det
 1. Clone the repository:
 
 ```bash
-pip install foobar
+git clone https://github.com/atunnd/Helmet-Detection.git
+cd HELMET-DETECTION
 ```
 2. Create a virtual environment and activate it:
 * For UNIX/macOS
